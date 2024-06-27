@@ -167,15 +167,15 @@ const App = () => {
     if (state.status === "unstarted") {
       return "text-xl py-2 bg-gray-400 text-white rounded-xl";
     } else if (state.status === "stalemate") {
-      return "text-xl py-2 text-orange-300";
+      return "text-xl py-2 text-orange-300 text-white rounded-xl";
     } else if (state.status === "win") {
-      return "text-xl py-2 bg-green-300";
+      return "text-xl py-2 bg-green-300 text-white rounded-xl";
     } else if (state.status === "lose") {
-      return "text-xl py-2 bg-rose-300";
+      return "text-xl py-2 bg-rose-300 text-white rounded-xl";
     } else if (state.currentTurn === state.playerSign) {
-      return "text-xl py-2 bg-blue-300";
+      return "text-xl py-2 bg-blue-300 text-white rounded-xl";
     } else if (state.currentTurn !== state.playerSign) {
-      return "text-xl py-2 bg-rose-300";
+      return "text-xl py-2 bg-rose-300 text-white rounded-xl";
     }
   };
 
