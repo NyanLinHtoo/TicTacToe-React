@@ -2,6 +2,10 @@
 
 Tic-Tac-Toe is developed using React for the frontend and Node.js with Socket.IO for real-time communication on the backend.
 
+# Result
+
+![alt text](Screenshot_12.png)
+
 # Getting Started
 
 To get started with TicTacToe, follow these steps:
